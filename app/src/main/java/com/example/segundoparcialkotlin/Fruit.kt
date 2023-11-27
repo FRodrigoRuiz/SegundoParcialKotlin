@@ -2,20 +2,18 @@ package com.example.segundoparcialkotlin
 
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
-
 @Parcelize
-data class Fruit (
-    val name: String?,
+data class Fruit(
+    val name: String,
     val id: Int,
-    val nutrition: Nutrition,
+    val nutritions: Nutrition,
     var image: String
-) : Parcelable
-
+): Parcelable
 @Parcelize
-data class Nutrition (
+data class Nutrition(
     val calories: Int,
     val fat: Float,
     val sugar: Float,
     val carbohydrates: Float,
     val protein: Float
-) : Parcelable
+): Parcelable

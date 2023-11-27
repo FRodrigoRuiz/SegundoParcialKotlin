@@ -14,7 +14,7 @@
         android:layout_height="match_parent">
 
         <ImageView
-            android:id="@+id/ivFruit"
+            android:id="@+id/iv_fruit"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:scaleType="centerCrop"/>
@@ -26,7 +26,7 @@
             android:background="#112449">
 
             <TextView
-                android:id="@+id/tvFruitName"
+                android:id="@+id/tv_fruit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
